@@ -51,6 +51,7 @@ movie-api-AnthonyLindo.postman_collection.json
 ```
 
 ## Built With
+Collaberation : Lots of help from Stack Overflow and Ron Jackson when I got stuck with backend issues
 
 * [node](https://nodejs.org/) - an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
 * [mongodb](https://www.mongodb.com/) - NO-SQL database used.
