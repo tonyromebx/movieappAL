@@ -1,0 +1,51 @@
+{
+	"extends": [
+		"airbnb"
+	],
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"jest": true,
+		"node": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"rules": {
+		"react/prefer-stateless-function": 0,
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"react/jsx-no-undef": ["2", {
+			"allowGlobals": true
+		}],
+		"indent": ["error", "tab"],
+		"comma-dangle": 0,
+		"no-tabs": 0,
+		"import/no-extraneous-dependencies": ["error", {
+			"devDependencies": true
+		}],
+		"function-paren-newline": 0,
+		"import/prefer-default-export": 0,
+		"jsx-a11y/label-has-for": false,
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn"
+	},
+	"globals": {
+		"expect": true,
+		"it": true,
+		"describe": true,
+		"shallow": true,
+		"mount": true,
+		"jest": true,
+		"React": true,
+		"PropTypes": true,
+		"CSSModules": true
+	},
+	"plugins": [
+		"react-hooks"
+	  ]
+}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render 1`] = `
+<Home
+  changeDealerId={[Function]}
+  dealer={
+    Object {
+      "dealerId": 123,
+    }
+  }
+/>
+`;

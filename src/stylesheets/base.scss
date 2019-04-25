@@ -1,0 +1,47 @@
+@import './fonts';
+@import './slider';
+@import '~variables';
+
+
+body {
+	font-family: $body-font;
+	font-size: $font-size--default;
+}
+
+:global {
+	.intercom-mobile-messenger-active > body {
+		z-index: 1000;
+	}
+}
+
+h1, h2, h3, h4 {
+	font-family: $headline-font;
+	color: #000;
+}
+
+h1 {
+	color: #000;
+	font-size: 56px;
+	line-height: 1.09;
+	@media (min-width: $desktop-width) {
+		font-size: 44px;
+		line-height: 1.4;
+	}
+}
+
+h2 {
+	font-size: 20px;
+	@media (min-width: $desktop-width) {
+		font-size: 34px;
+	}
+}
+
+p {
+	font-size: 14px;
+	font-family: $hanken-sans;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+

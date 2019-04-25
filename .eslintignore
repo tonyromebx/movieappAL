@@ -1,0 +1,14 @@
+node_modules
+build
+*.scss
+*.css
+*.png
+*.jpg
+*.gif
+*.html
+*.ico
+*.snap
+*.svg
+lighthouse-results.json
+*.ttf
+*.otf
