@@ -44,6 +44,11 @@ username = anthony
 password = 1234567
 ```
 
+### postman Collections
+```
+'json file is in the root directory'
+movie-api-AnthonyLindo.postman_collection.json
+```
 
 ## Built With
 
